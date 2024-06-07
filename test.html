@@ -1,0 +1,105 @@
+<form action="/result" id="newForm" method="POST">
+ <input name="feature" type="hidden" value="new"/>
+ <div>
+  <div class="row">
+   <div class="col">
+    <div class="form-group">
+     <select class="form-control" name="newcategory">
+      <option value="">
+       Select Category
+      </option>
+      <option value="1">
+       Car
+      </option>
+      <option value="2">
+       Bike/Motorcycle
+      </option>
+      <option value="3">
+       Scooter
+      </option>
+      <option style="display: none;" value="4">
+       Plane
+      </option>
+      <option style="display: none;" value="5">
+       Bicycle
+      </option>
+      <option style="display: none;" value="7">
+       Taxi
+      </option>
+      <option style="display: none;" value="21">
+       Truck
+      </option>
+      <option style="display: none;" value="31">
+       Bus
+      </option>
+      <option style="display: none;" value="41">
+       Tractor
+      </option>
+      <option value="51">
+       Electric Car
+      </option>
+      <option value="61">
+       Electric Scooter
+      </option>
+      <option value="111">
+       Electric Bike
+      </option>
+     </select>
+    </div>
+   </div>
+  </div>
+  <div class="row">
+   <div class="col">
+    <div class="form-group">
+     <select class="form-control" name="newmake">
+      <option value="">
+       Select Make
+      </option>
+     </select>
+    </div>
+   </div>
+   <div class="col">
+    <div class="form-group">
+     <select class="form-control" name="newmodel">
+      <option value="">
+       Select Model
+      </option>
+     </select>
+    </div>
+   </div>
+  </div>
+  <div class="row">
+   <div class="col">
+    <div class="form-group">
+     <select class="form-control" name="newtrim">
+      <option value="">
+       Select Trim
+      </option>
+     </select>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="row">
+  <div class="col">
+   <div class="">
+    <a class="link" href="#" role="button">
+     Or Select A Vehicle
+    </a>
+   </div>
+  </div>
+ </div>
+ <div class="row">
+  <div class="col-12">
+   <div class="error">
+   </div>
+   <div class="actions">
+    <input id="newForm_phone" name="phone" type="hidden" value="1111111111"/>
+    <input id="newForm_userType" name="userType" type="hidden" value="dealer"/>
+    <button class="btn btn-block btn-primary" id="check_price_new" type="button">
+     Check Price
+    </button>
+   </div>
+  </div>
+ </div>
+</form>
